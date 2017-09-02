@@ -1,13 +1,13 @@
 package Assignment1;
-
+	/*
+		 * Write a program that reads an integer between 0 and 1000 and adds all the digits in the integer. For example, if an integer is 932, the sum of all its digits is 14.
+		 */
 import java.util.Random;
 
 public class Chapter2_06 {
 
 	public static void main(String[] args) {
-		/*
-		 * Write a program that reads an integer between 0 and 1000 and adds all the digits in the integer. For example, if an integer is 932, the sum of all its digits is 14.
-		 */
+	
 		Random rand = new Random();
 		int a = rand.nextInt(1000)+1;
 		int b = a %10;

@@ -1,13 +1,13 @@
 package Assignment1;
-
-public class Chapter1_13 {
-
-	public static void main(String[] args) {
 /*
  * Write a program that solves the following equation and displays the value for x and y:
  * 3.4x + 50.2y = 44.5
  * 2.1x + .55y = 5.9
  */
+public class Chapter1_13 {
+
+	public static void main(String[] args) {
+
 		double a = 3.4;
 		double b = 50.2;
 		double c =2.1;

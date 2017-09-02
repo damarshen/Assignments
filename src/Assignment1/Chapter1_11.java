@@ -1,13 +1,13 @@
 package Assignment1;
-
+/*
+		 * Write a program to display the population for each of the next five years. Assume the current population is 312,032,486 and one year has 365 days.
+		 */
 public class Chapter1_11 {
 
 	public static void main(String[] args) {
 
 
-		/*
-		 * Write a program to display the population for each of the next five years. Assume the current population is 312,032,486 and one year has 365 days.
-		 */
+		
 				int startingPopulation = 312032486;
 				int yearInSeconds = 60*60*24*365;
 				int birthRate = 7;
