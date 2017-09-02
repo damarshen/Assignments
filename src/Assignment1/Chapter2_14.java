@@ -1,5 +1,6 @@
 package Assignment1;
-
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.Scanner;
 
 /*
@@ -18,7 +19,8 @@ public class Chapter2_14 {
 		double heightInMeters = heightInInches * 0.0254;
 		double heightSquared = Math.pow(heightInMeters, 2);
 		double BMI = (weightInKilos) / (heightSquared);
-		System.out.println("BMI is: " + BMI);
+		NumberFormat formatter = new DecimalFormat("#0.00");
+		System.out.println("BMI is: " + formatter.format(BMI));
 
 	}
 
