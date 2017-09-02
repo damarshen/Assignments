@@ -1,10 +1,9 @@
 package Assignment1;
-
-import java.util.Scanner;
-
 /*
  * Write a program that prompts the user to enter the minutes (e.g., 1 billion), and displays the number of years and days for the minutes
  */
+import java.util.Scanner;
+
 public class Chapter2_07 {
 
 	public static void main(String[] args) {
