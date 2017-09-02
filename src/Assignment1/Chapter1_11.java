@@ -1,6 +1,6 @@
 package Assignment1;
 
-public class Chaptter1_11 {
+public class Chapter1_11 {
 
 	public static void main(String[] args) {
 
