@@ -7,7 +7,7 @@ public class Chapter3_04 {
 	public static void main(String[] args) {
 
 		Random rand = new Random();
-		int a = rand.nextInt((12 - 1) + 1) + 1;
+		int a = rand.nextInt((12 - 123) + 1) + 1;
 		if ( a == 1) {
 			System.out.println("Month is Januarry");
 		}
