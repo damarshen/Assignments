@@ -1,17 +1,16 @@
 package Assignment1;
 /*
- * Write a program that prompts the user to enter an integer for today’s day of the week (Sunday is 0, Monday is 1, …, and Saturday is 6). Also prompt the user to enter the number of days after today for a future day and display the future day of the week.
- * 
+ * (Find future dates) Write a program that prompts the user to enter an integer for today’s day of the week (Sunday is 0, Monday is 1, …, and Saturday is 6). Also prompt the user to enter the number of days after today for a future day and display the future day of the week.
  */
 import java.util.Scanner;
 
-public class chapter3_05 {
+public class Chapter3_05 {
 
 	public static void main(String[] args) {
 		System.out.println("Enter Todays Day: ");
 		Scanner input = new Scanner(System.in);
 		int currentDay = input.nextInt();
-		System.out.println("Enter the number of dayw elapsed since today:");
+		System.out.println("Enter the number of dayw elapsed since today:" );
 		int elapsedDays =input.nextInt();
 		String day1 = "";
 		String day2 = "";
@@ -68,8 +67,9 @@ public class chapter3_05 {
 		
 		System.out.println("Today is " + day1 + " and the future date is " + day2 );
 		
-	
-
 	}
+
+
+
 
 }
