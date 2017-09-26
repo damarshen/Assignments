@@ -23,6 +23,7 @@ double t2s1= distanceBetween(atlantaLat, atlantaLon, savannahLat, savannahLon);
 double t2s2= distanceBetween(atlantaLat, atlantaLon, orlandoLat, orlandoLon);
 double t2s3= distanceBetween(orlandoLat, orlandoLon, savannahLat, savannahLon);
 
+
 double area1 = triangleArea(t1s1, t1s2, t1s3);
 double area2 = triangleArea(t2s1, t2s2, t2s3);
 double enclosedArea = area1+area2;
