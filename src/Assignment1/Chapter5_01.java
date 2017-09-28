@@ -36,7 +36,7 @@ public class Chapter5_01 {
 	System.out.println("The number of positive numbers is: "+ posNum);
 	System.out.println("The number of negative numbers is: "+ negNum);
 	System.out.println("the total is: " + total);
-	System.out.println("the average is" + average );
+	System.out.println("the average is " + average );
 	}
 
 }
