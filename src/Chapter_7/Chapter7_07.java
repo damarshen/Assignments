@@ -1,0 +1,20 @@
+package Chapter_7;
+
+public class Chapter7_07 {
+
+	public static void main(String[] args) {
+		int[] counts = new int[10]; 
+
+		
+		for (int i = 1; i <= 100; i++) {
+			counts[(int)(Math.random() * 10)]++;
+		}
+
+		System.out.println("Count for each number between 0 and 9:");
+		for (int i = 0; i < counts.length; i++) {
+			System.out.println("The number of " +i + "'s is: " + counts[i]);
+		}
+
+	}
+
+}
