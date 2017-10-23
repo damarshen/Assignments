@@ -6,7 +6,7 @@ public class Rectangle {
 		
 		public Rectangle() {
 			width=1;
-			height=1;
+			height=1; 
 		}
 		public Rectangle(double a, double b) {
 			width=a;
