@@ -1,4 +1,4 @@
-package Chapter_9_09;
+package Chapter_9;
 
 import Chapter_9.objectClasses.RegularPolygon;
 
