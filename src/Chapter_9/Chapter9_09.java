@@ -2,7 +2,7 @@ package Chapter_9;
 
 import Chapter_9.objectClasses.RegularPolygon;
 
-public class Chapter9 {
+public class Chapter9_09 {
 
 	public static void main(String[] args) {
 		RegularPolygon p1 = new RegularPolygon();
