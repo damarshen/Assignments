@@ -23,7 +23,7 @@ public class chapter10_07 {
 				do { 
 					option = mainMenu(input);
 					if(option>0 && option<4) {
-						results(option, accounts, Id, input);
+						transaction(option, accounts, Id, input);
 					}
 
 				} while (option != 4);
@@ -62,7 +62,7 @@ public class chapter10_07 {
 		return input.nextInt();
 	}
 	
-	public static void results(int a, Account[]b, int c, Scanner input  ) {
+	public static void transaction(int a, Account[]b, int c, Scanner input  ) {
 		switch(a) {
 		case 1: System.out.println("Your balance is: $" + b[c].getBalance()+ "\n");
 		break;
